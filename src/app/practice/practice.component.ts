@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class PracticeComponent {
      public name = "Uday Kolhe";
+     public displayName = "";
+
+     getName(value:string){
+      this.displayName = value;
+     }
 }

@@ -1,2 +1,7 @@
 <p>practice works!</p>
 <h1>{{name}}</h1>
+
+<input type="text" #nameBox placeholder="Enter Name" name="myName">
+<button (click)="getName(nameBox.value) " >Click</button>
+
+{{displayName}}
